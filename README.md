@@ -1,6 +1,5 @@
-# html-mailing
+## Introduction
 
-h3. Introduction
 This code implements an HTML form.
 * Send mail to an address with the content of the form
 * Server-side validation for inputs
