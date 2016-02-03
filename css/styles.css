@@ -1,0 +1,166 @@
+/* General settings */
+body {
+  position: relative;
+  background-color: #f7f7f7;
+}
+
+#content {
+  background-color: #f7f7f7;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+section {
+  background-color: #fff;
+  box-shadow: 0 0 2px #eaeaea;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+p {
+  text-align: justify;
+}
+
+/* Get in touch */
+#get-in-touch {
+  background-color: #76BB2C;
+  padding: 20px 0px;
+}
+
+#call-to-action h1 {
+  color: #E5E5E5;
+  font-size: 45px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/*Get-in-touch form*/
+#call-to-action form input, #call-to-action form textarea {
+  padding: 5px;
+  border: 2px solid #a5a5a5;
+  border-radius: 5px;
+  margin: 5px 0px 5px 0px;
+  width: 100%;
+}
+
+#call-to-action form input:focus, #call-to-action form textarea:focus {
+  border: 2px solid #76BB2C;
+  border-radius: 3px;
+}
+
+#call-to-action div p {
+  text-align: center;
+}
+
+#recaptcha-widget #recap {
+  height: 74px;
+  width: 100%;
+}
+
+#recap {
+  padding: 0;
+}
+
+#call-to-action > div {
+  margin-bottom: 20px;
+}
+
+/*Get-in-touch submit button*/
+
+#submit-button {
+  text-align: center;
+}
+
+#call-to-action form button {
+  background: #76BB2C;
+  width: 100px;
+  height: 50px;
+  border: 0px;
+  border-radius: 3px;
+  color: #EAEAEA;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Error messages. */
+.submit_note {
+  clear:both;
+}
+
+.alert-warning,
+.alert-success {
+  display:block;
+  padding:20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-align:center;
+}
+
+.alert-warning {
+  background:#fb7973;
+  color:#fff;
+}
+
+.alert-success {
+  background:#76bb2c;
+  color:#fff;
+}
+
+#recaptcha-widget > div > div {
+  margin: auto;
+}
+
+#call-to-action form button:hover {
+  background-color: #67A327;
+}
+
+/* Media queries */
+@media only screen and (min-width: 768px) {
+  #benefits {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #benefits > div > div:nth-child(3) {
+    clear: both;
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body > footer > div > div:nth-child(3) {
+    text-align: right;
+  }
+  
+  .label-big {
+    top: 0px;
+  }
+  
+  .label-big h2 {
+    font-size: 300%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #call-to-action h1 {
+    font-size: 35px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .label-big h1 {
+    font-size: 150%;
+  }
+}

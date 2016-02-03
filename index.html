@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Partial code for mailing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div id="content">
+
+    <!--Some content-->
+
+    <section id="call-to-action" class="clearfix">
+        <div class="row" id="get-in-touch">
+          <div class="col-xs-12">
+            <h1>Get In Touch With Us</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 col-xs-12">
+            <form name="form" id="form" action="?" method="post">
+              <input id="contact-name" class="input placeholder" type="text" placeholder="Your Name" name="contact-name">
+              <br>
+              <input id="contact-email" class="input placeholder" type="text" placeholder="Your E-mail" name="contact-email">
+              <br>
+              <input id="contact-subject" class="input placeholder" type="text" placeholder="Subject of your message" name="contact-subject">
+              <br>
+              <textarea id="contact-message" class="textarea placeholder" rows="8" placeholder="Brief introduction of this and that." name="contact-message"></textarea>
+              <br>
+              <div class = "col-xs-12">
+                <p><em>We will not publish, share or sell your email address in any way.</em></p>
+              </div>
+              <div class = "col-xs-12" id="recap">
+                <div id="recaptcha-widget"></div>
+              </div>
+              <div id="submit-button" class="col-xs-12">
+                <button id="contact-submit" type="submit">Submit</button>
+              </div>
+            </form>
+            <div class="submit_note">
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!--Some content-->
+
+    </div>
+    <script src="js/jquery-2.1.4.js" defer></script>
+    <script src="js/bootstrap.min.js" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit&hl=en"
+      async defer>
+    </script>
+    <script src="js/custom.js" defer></script>
+  </body>
+</html>
